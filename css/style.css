@@ -61,6 +61,10 @@ h2 {
   font-size: 2em;
 }
 
+.beta:hover {
+  cursor: pointer;
+}
+
 /* Animate heading */
 
 @-webkit-keyframes typing {
@@ -97,7 +101,12 @@ h1 {
 
 /* Animate other */
 
-#slow {
+.slow {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+}
+
+.medium {
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 1s;
 }

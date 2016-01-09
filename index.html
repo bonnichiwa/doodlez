@@ -9,6 +9,10 @@
   <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <script src="bower_components/wow/dist/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </head>
 <body>
 
@@ -18,31 +22,31 @@
     </div> 
     <div class="subHeaderBox">
       <h2 class="animated fadeInUp" id="slow">The realtime doodling app</h2>
-      <img src="images/iphone_home.png" class="animated fadeInUp" id="slow"/>
+      <img src="images/iphone_home.png" class="animated fadeInUp slow"/>
       
     </div>
   </div>
 
   <div class="container">
     <div class="smallContainer" style="background: darkgray">
-      <h2>Draw a masterpiece</h2>
+      <h2 class="wow fadeInLeft" class="medium">Draw a masterpiece</h2>
     </div>
     <div class="smallContainer">
-      <h2>Send it to your friends</h2>
+      <h2 class="wow fadeInRight" class="medium">Send it to your friends</h2>
     </div>
   </div>
 
   <div class="container">
     <div class="smallContainer">
-      <h2>Follow your friend's story</h2>
+      <h2 class="wow fadeInLeft" class="medium">Follow your friend's story</h2>
     </div>
     <div class="smallContainer" style="background: darkgray">
-      <h2>Chat with doodles</h2>
+      <h2 class="wow fadeInRight" class="medium">Chat with doodles</h2>
     </div>
   </div>
 
   <div class="trial">
-    <button class="beta">Try the Beta Version!</button>
+    <button class="beta animated pulse infinite slow" onclick="window.open('http://doodlez-app.appspot.com/')" target="_blank">Try the Beta Version!</button>
   </div>
 
 </body>
