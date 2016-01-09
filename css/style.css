@@ -49,3 +49,14 @@ h2 {
 .smallContainer {
   background-color: gray;
 }
+
+.trial {
+  padding: 4em;
+}
+
+.beta {
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-family: 'Amatic SC';
+  font-size: 2em;
+}
