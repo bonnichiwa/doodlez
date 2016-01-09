@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  margin: 0 0;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC';
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4em;
+  letter-spacing: 0.25em;
+}
+
+h2 {
+  letter-spacing: 0.05em;
+  font-size: 2em;
+}
+
+.headBg {
+  padding-top: 5em;
+}
+
+.headerBox {
+  margin: auto;
+  width: 20em;
+  height: 5em;
+}
+
+.subHeaderBox {
+  margin: auto;
+  padding-bottom: 4em;
+}
+
+.container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  color: #fff;
+}
+
+.smallContainer {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.smallContainer {
+  background-color: gray;
+}
