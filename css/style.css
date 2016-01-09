@@ -60,3 +60,37 @@ h2 {
   font-family: 'Amatic SC';
   font-size: 2em;
 }
+
+/* Animate text */
+
+@-webkit-keyframes typing {
+    from { width: 0 }
+}
+
+@-moz-keyframes typing {
+    from { width: 0 }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+h1 { 
+  padding-left: 0.5em;
+  text-align: left;
+  width:4em;
+  white-space:nowrap;
+  overflow:hidden;
+  border-right: .035em solid black;
+  
+  -webkit-animation: typing 3.5s steps(7, end), /* # of steps = # of characters */
+                      blink-caret 0.5s step-end infinite;
+  -moz-animation: typing 3.5s steps(7, end), /* # of steps = # of characters */
+                      blink-caret 0.5s step-end infinite;
+}
