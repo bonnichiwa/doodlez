@@ -61,7 +61,7 @@ h2 {
   font-size: 2em;
 }
 
-/* Animate text */
+/* Animate heading */
 
 @-webkit-keyframes typing {
     from { width: 0 }
@@ -93,4 +93,11 @@ h1 {
                       blink-caret 0.5s step-end infinite;
   -moz-animation: typing 3.5s steps(7, end), /* # of steps = # of characters */
                       blink-caret 0.5s step-end infinite;
+}
+
+/* Animate other */
+
+#slow {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
 }
