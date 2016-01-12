@@ -18,6 +18,10 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  font-family: 'Walter Turncoat';
+}
+
 .headBg {
   padding-top: 5em;
 }
@@ -48,6 +52,7 @@ h2 {
 
 .smallContainer {
   background-color: gray;
+  padding: 2em;
 }
 
 .trial {
@@ -63,6 +68,16 @@ h2 {
 
 .beta:hover {
   cursor: pointer;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 2em;
+}
+
+.footer > h3 {
+  margin-bottom: -1em;
 }
 
 /* Animate heading */
@@ -103,7 +118,7 @@ h1 {
 
 .slow {
   -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: 1.5s;
 }
 
 .medium {
